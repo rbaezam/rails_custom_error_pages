@@ -1,0 +1,2211 @@
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-08 14:27:17 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/Rodolfo/.rvm/gems/ruby-2.1.2/gems/railties-4.1.8/lib/rails/templates/rails/welcome/index.html.erb (2.1ms)
+Completed 200 OK in 70ms (Views: 36.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/public/dfsdf" for 127.0.0.1 at 2014-12-08 14:27:22 -0600
+
+ActionController::RoutingError (No route matches [GET] "/public/dfsdf"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/Rodolfo/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/Rodolfo/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /Users/Rodolfo/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (34.1ms)
+  Rendered /Users/Rodolfo/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (69.7ms)
+
+
+Started GET "/admin/afsd" for 127.0.0.1 at 2014-12-08 14:27:29 -0600
+
+ActionController::RoutingError (No route matches [GET] "/admin/afsd"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/Rodolfo/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/Rodolfo/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /Users/Rodolfo/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /Users/Rodolfo/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (19.8ms)
+
+
+Started GET "/admin/afsd" for 127.0.0.1 at 2014-12-08 14:28:09 -0600
+
+ActionController::RoutingError (No route matches [GET] "/admin/afsd"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-08 14:28:18 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/Rodolfo/.rvm/gems/ruby-2.1.2/gems/railties-4.1.8/lib/rails/templates/rails/welcome/index.html.erb (2.7ms)
+Completed 200 OK in 25ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2014-12-08 14:28:21 -0600
+
+ActionController::RoutingError (No route matches [GET] "/admin"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+
+Started GET "/public/df" for 127.0.0.1 at 2014-12-08 14:28:26 -0600
+
+ActionController::RoutingError (No route matches [GET] "/public/df"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+
+Started GET "/public/df" for 127.0.0.1 at 2014-12-08 14:29:10 -0600
+
+ActionController::RoutingError (No route matches [GET] "/public/df"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+
+Started GET "/admin/sdfs" for 127.0.0.1 at 2014-12-08 14:29:16 -0600
+
+ActionController::RoutingError (No route matches [GET] "/admin/sdfs"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+
+Started GET "/admin/sdfs" for 127.0.0.1 at 2014-12-08 14:29:58 -0600
+
+ActionController::RoutingError (No route matches [GET] "/admin/sdfs"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+
+Started GET "/admin/sdfs" for 127.0.0.1 at 2014-12-08 14:30:05 -0600
+
+ActionController::RoutingError (No route matches [GET] "/admin/sdfs"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+
+Started GET "/admin/sdfs" for 127.0.0.1 at 2014-12-08 14:32:13 -0600
+
+ActionController::RoutingError (No route matches [GET] "/admin/sdfs"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+
+Started GET "/admin/" for 127.0.0.1 at 2014-12-08 14:32:43 -0600
+
+ActionController::RoutingError (No route matches [GET] "/admin"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+
+Started GET "/admin/site/" for 127.0.0.1 at 2014-12-08 14:33:19 -0600
+
+ActionController::RoutingError (No route matches [GET] "/admin/site"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+
+Started GET "/admin/site/" for 127.0.0.1 at 2014-12-08 14:33:59 -0600
+
+ActionController::RoutingError (No route matches [GET] "/admin/site"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+
+Started GET "/admin/site/index" for 127.0.0.1 at 2014-12-08 14:34:05 -0600
+
+ActionController::RoutingError (No route matches [GET] "/admin/site/index"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+
+Started GET "/admin/portal/index" for 127.0.0.1 at 2014-12-08 14:34:40 -0600
+Processing by Admin::PortalController#index as HTML
+  Rendered admin/portal/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 1852ms (Views: 1830.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/admin/portal.css?body=1" for 127.0.0.1 at 2014-12-08 14:34:42 -0600
+
+
+Started GET "/assets/public/site.css?body=1" for 127.0.0.1 at 2014-12-08 14:34:42 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-08 14:34:42 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-08 14:34:43 -0600
+
+
+Started GET "/assets/public/errors.css?body=1" for 127.0.0.1 at 2014-12-08 14:34:43 -0600
+
+
+Started GET "/assets/admin/errors.css?body=1" for 127.0.0.1 at 2014-12-08 14:34:43 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-08 14:34:43 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-08 14:34:43 -0600
+
+
+Started GET "/assets/admin/errors.js?body=1" for 127.0.0.1 at 2014-12-08 14:34:43 -0600
+
+
+Started GET "/assets/admin/portal.js?body=1" for 127.0.0.1 at 2014-12-08 14:34:43 -0600
+
+
+Started GET "/assets/public/errors.js?body=1" for 127.0.0.1 at 2014-12-08 14:34:43 -0600
+
+
+Started GET "/assets/public/site.js?body=1" for 127.0.0.1 at 2014-12-08 14:34:43 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-08 14:34:43 -0600
+
+
+Started GET "/admin/asdfsdf" for 127.0.0.1 at 2014-12-08 14:34:47 -0600
+
+ActionController::RoutingError (No route matches [GET] "/admin/asdfsdf"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-08 14:35:31 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/Rodolfo/.rvm/gems/ruby-2.1.2/gems/railties-4.1.8/lib/rails/templates/rails/welcome/index.html.erb (1.9ms)
+Completed 200 OK in 20ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/site/index" for 127.0.0.1 at 2014-12-08 14:35:38 -0600
+Processing by Public::SiteController#index as HTML
+  Rendered public/site/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 139ms (Views: 138.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/public/site.css?body=1" for 127.0.0.1 at 2014-12-08 14:35:38 -0600
+
+
+Started GET "/assets/admin/errors.css?body=1" for 127.0.0.1 at 2014-12-08 14:35:38 -0600
+
+
+Started GET "/assets/admin/errors.js?body=1" for 127.0.0.1 at 2014-12-08 14:35:38 -0600
+
+
+Started GET "/assets/public/errors.css?body=1" for 127.0.0.1 at 2014-12-08 14:35:38 -0600
+
+
+Started GET "/assets/admin/portal.css?body=1" for 127.0.0.1 at 2014-12-08 14:35:38 -0600
+
+
+Started GET "/assets/admin/portal.js?body=1" for 127.0.0.1 at 2014-12-08 14:35:38 -0600
+
+
+Started GET "/assets/public/errors.js?body=1" for 127.0.0.1 at 2014-12-08 14:35:38 -0600
+
+
+Started GET "/assets/public/site.js?body=1" for 127.0.0.1 at 2014-12-08 14:35:38 -0600
+
+
+Started GET "/sdsdg" for 127.0.0.1 at 2014-12-08 14:35:41 -0600
+
+ActionController::RoutingError (No route matches [GET] "/sdsdg"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+Processing by Public::ErrorsController#file_not_found as HTML
+  Rendered public/errors/file_not_found.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 83ms (Views: 82.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/admin/errors.css?body=1" for 127.0.0.1 at 2014-12-08 14:35:41 -0600
+
+
+Started GET "/assets/public/errors.css?body=1" for 127.0.0.1 at 2014-12-08 14:35:41 -0600
+
+
+Started GET "/assets/admin/portal.js?body=1" for 127.0.0.1 at 2014-12-08 14:35:41 -0600
+
+
+Started GET "/assets/admin/portal.css?body=1" for 127.0.0.1 at 2014-12-08 14:35:41 -0600
+
+
+Started GET "/assets/admin/errors.js?body=1" for 127.0.0.1 at 2014-12-08 14:35:41 -0600
+
+
+Started GET "/assets/public/site.css?body=1" for 127.0.0.1 at 2014-12-08 14:35:41 -0600
+
+
+Started GET "/assets/public/errors.js?body=1" for 127.0.0.1 at 2014-12-08 14:35:41 -0600
+
+
+Started GET "/assets/public/site.js?body=1" for 127.0.0.1 at 2014-12-08 14:35:41 -0600
+
+
+Started GET "/admin/sdfsdf" for 127.0.0.1 at 2014-12-08 14:35:48 -0600
+
+ActionController::RoutingError (No route matches [GET] "/admin/sdfsdf"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+Processing by Public::ErrorsController#file_not_found as HTML
+  Rendered public/errors/file_not_found.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 67ms (Views: 66.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/admin/errors.css?body=1" for 127.0.0.1 at 2014-12-08 14:35:48 -0600
+
+
+Started GET "/assets/public/site.css?body=1" for 127.0.0.1 at 2014-12-08 14:35:48 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-08 14:35:48 -0600
+
+
+Started GET "/assets/public/errors.css?body=1" for 127.0.0.1 at 2014-12-08 14:35:48 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-08 14:35:48 -0600
+
+
+Started GET "/assets/admin/portal.css?body=1" for 127.0.0.1 at 2014-12-08 14:35:48 -0600
+
+
+Started GET "/assets/admin/errors.js?body=1" for 127.0.0.1 at 2014-12-08 14:35:48 -0600
+
+
+Started GET "/assets/admin/portal.js?body=1" for 127.0.0.1 at 2014-12-08 14:35:48 -0600
+
+
+Started GET "/assets/public/errors.js?body=1" for 127.0.0.1 at 2014-12-08 14:35:48 -0600
+
+
+Started GET "/assets/public/site.js?body=1" for 127.0.0.1 at 2014-12-08 14:35:48 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-08 14:35:48 -0600
+
+
+Started GET "/admin/portal/index" for 127.0.0.1 at 2014-12-08 14:36:00 -0600
+Processing by Admin::PortalController#index as HTML
+  Rendered admin/portal/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 69ms (Views: 68.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/admin/errors.css?body=1" for 127.0.0.1 at 2014-12-08 14:36:00 -0600
+
+
+Started GET "/assets/public/site.css?body=1" for 127.0.0.1 at 2014-12-08 14:36:00 -0600
+
+
+Started GET "/assets/admin/portal.css?body=1" for 127.0.0.1 at 2014-12-08 14:36:00 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-08 14:36:00 -0600
+
+
+Started GET "/assets/public/errors.css?body=1" for 127.0.0.1 at 2014-12-08 14:36:00 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-08 14:36:00 -0600
+
+
+Started GET "/assets/admin/errors.js?body=1" for 127.0.0.1 at 2014-12-08 14:36:00 -0600
+
+
+Started GET "/assets/admin/portal.js?body=1" for 127.0.0.1 at 2014-12-08 14:36:00 -0600
+
+
+Started GET "/assets/public/errors.js?body=1" for 127.0.0.1 at 2014-12-08 14:36:00 -0600
+
+
+Started GET "/assets/public/site.js?body=1" for 127.0.0.1 at 2014-12-08 14:36:00 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-08 14:36:00 -0600
+
+
+Started GET "/admin/sfgwe" for 127.0.0.1 at 2014-12-08 14:36:03 -0600
+
+ActionController::RoutingError (No route matches [GET] "/admin/sfgwe"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+Processing by Public::ErrorsController#file_not_found as HTML
+  Rendered public/errors/file_not_found.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 79ms (Views: 78.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/admin/errors.css?body=1" for 127.0.0.1 at 2014-12-08 14:36:03 -0600
+
+
+Started GET "/assets/public/site.css?body=1" for 127.0.0.1 at 2014-12-08 14:36:03 -0600
+
+
+Started GET "/assets/admin/portal.css?body=1" for 127.0.0.1 at 2014-12-08 14:36:03 -0600
+
+
+Started GET "/assets/public/errors.css?body=1" for 127.0.0.1 at 2014-12-08 14:36:03 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-08 14:36:03 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-08 14:36:03 -0600
+
+
+Started GET "/assets/admin/errors.js?body=1" for 127.0.0.1 at 2014-12-08 14:36:03 -0600
+
+
+Started GET "/assets/admin/portal.js?body=1" for 127.0.0.1 at 2014-12-08 14:36:03 -0600
+
+
+Started GET "/assets/public/errors.js?body=1" for 127.0.0.1 at 2014-12-08 14:36:03 -0600
+
+
+Started GET "/assets/public/site.js?body=1" for 127.0.0.1 at 2014-12-08 14:36:03 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-08 14:36:03 -0600
+
+
+Started GET "/admin/sfgwe" for 127.0.0.1 at 2014-12-08 14:36:17 -0600
+
+ActionController::RoutingError (No route matches [GET] "/admin/sfgwe"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+Processing by Public::ErrorsController#file_not_found as HTML
+  Rendered public/errors/file_not_found.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 63ms (Views: 61.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/admin/portal.css?body=1" for 127.0.0.1 at 2014-12-08 14:36:17 -0600
+
+
+Started GET "/assets/admin/errors.css?body=1" for 127.0.0.1 at 2014-12-08 14:36:17 -0600
+
+
+Started GET "/assets/public/errors.css?body=1" for 127.0.0.1 at 2014-12-08 14:36:17 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-08 14:36:17 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-08 14:36:17 -0600
+
+
+Started GET "/assets/public/site.css?body=1" for 127.0.0.1 at 2014-12-08 14:36:17 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-08 14:36:17 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-08 14:36:17 -0600
+
+
+Started GET "/assets/admin/errors.js?body=1" for 127.0.0.1 at 2014-12-08 14:36:17 -0600
+
+
+Started GET "/assets/admin/portal.js?body=1" for 127.0.0.1 at 2014-12-08 14:36:17 -0600
+
+
+Started GET "/assets/public/errors.js?body=1" for 127.0.0.1 at 2014-12-08 14:36:17 -0600
+
+
+Started GET "/assets/public/site.js?body=1" for 127.0.0.1 at 2014-12-08 14:36:17 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-08 14:36:17 -0600
+
+
+Started GET "/admin/portal/index" for 127.0.0.1 at 2014-12-08 14:36:22 -0600
+Processing by Admin::PortalController#index as HTML
+  Rendered admin/portal/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 75ms (Views: 73.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/admin/errors.css?body=1" for 127.0.0.1 at 2014-12-08 14:36:22 -0600
+
+
+Started GET "/assets/admin/portal.css?body=1" for 127.0.0.1 at 2014-12-08 14:36:22 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-08 14:36:22 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-08 14:36:22 -0600
+
+
+Started GET "/assets/public/errors.css?body=1" for 127.0.0.1 at 2014-12-08 14:36:22 -0600
+
+
+Started GET "/assets/public/site.css?body=1" for 127.0.0.1 at 2014-12-08 14:36:22 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-08 14:36:22 -0600
+
+
+Started GET "/assets/admin/errors.js?body=1" for 127.0.0.1 at 2014-12-08 14:36:22 -0600
+
+
+Started GET "/assets/admin/portal.js?body=1" for 127.0.0.1 at 2014-12-08 14:36:22 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-08 14:36:22 -0600
+
+
+Started GET "/assets/public/errors.js?body=1" for 127.0.0.1 at 2014-12-08 14:36:22 -0600
+
+
+Started GET "/assets/public/site.js?body=1" for 127.0.0.1 at 2014-12-08 14:36:22 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-08 14:36:22 -0600
+
+
+Started GET "/admin/wwe" for 127.0.0.1 at 2014-12-08 14:36:26 -0600
+
+ActionController::RoutingError (No route matches [GET] "/admin/wwe"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+Processing by Public::ErrorsController#file_not_found as HTML
+  Rendered public/errors/file_not_found.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 73ms (Views: 72.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/admin/errors.css?body=1" for 127.0.0.1 at 2014-12-08 14:36:26 -0600
+
+
+Started GET "/assets/admin/portal.css?body=1" for 127.0.0.1 at 2014-12-08 14:36:26 -0600
+
+
+Started GET "/assets/public/site.css?body=1" for 127.0.0.1 at 2014-12-08 14:36:26 -0600
+
+
+Started GET "/assets/public/errors.css?body=1" for 127.0.0.1 at 2014-12-08 14:36:26 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-08 14:36:26 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-08 14:36:26 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-08 14:36:26 -0600
+
+
+Started GET "/assets/admin/errors.js?body=1" for 127.0.0.1 at 2014-12-08 14:36:26 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-08 14:36:26 -0600
+
+
+Started GET "/assets/public/errors.js?body=1" for 127.0.0.1 at 2014-12-08 14:36:26 -0600
+
+
+Started GET "/assets/admin/portal.js?body=1" for 127.0.0.1 at 2014-12-08 14:36:26 -0600
+
+
+Started GET "/assets/public/site.js?body=1" for 127.0.0.1 at 2014-12-08 14:36:26 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-08 14:36:26 -0600
+
+
+Started GET "/admin/wwe" for 127.0.0.1 at 2014-12-08 14:36:39 -0600
+
+ActionController::RoutingError (No route matches [GET] "/admin/wwe"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+Processing by Public::ErrorsController#file_not_found as HTML
+  Rendered public/errors/file_not_found.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 64ms (Views: 63.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/admin/errors.css?body=1" for 127.0.0.1 at 2014-12-08 14:36:39 -0600
+
+
+Started GET "/assets/public/site.css?body=1" for 127.0.0.1 at 2014-12-08 14:36:39 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-08 14:36:40 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-08 14:36:40 -0600
+
+
+Started GET "/assets/public/errors.css?body=1" for 127.0.0.1 at 2014-12-08 14:36:40 -0600
+
+
+Started GET "/assets/admin/portal.css?body=1" for 127.0.0.1 at 2014-12-08 14:36:40 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-08 14:36:40 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-08 14:36:40 -0600
+
+
+Started GET "/assets/admin/portal.js?body=1" for 127.0.0.1 at 2014-12-08 14:36:40 -0600
+
+
+Started GET "/assets/admin/errors.js?body=1" for 127.0.0.1 at 2014-12-08 14:36:40 -0600
+
+
+Started GET "/assets/public/errors.js?body=1" for 127.0.0.1 at 2014-12-08 14:36:40 -0600
+
+
+Started GET "/assets/public/site.js?body=1" for 127.0.0.1 at 2014-12-08 14:36:40 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-08 14:36:40 -0600
+
+
+Started GET "/admin/wwe" for 127.0.0.1 at 2014-12-08 14:36:56 -0600
+
+ActionController::RoutingError (No route matches [GET] "/admin/wwe"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+Processing by Public::ErrorsController#file_not_found as HTML
+  Rendered public/errors/file_not_found.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 60ms (Views: 58.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/admin/errors.css?body=1" for 127.0.0.1 at 2014-12-08 14:36:56 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-08 14:36:56 -0600
+
+
+Started GET "/assets/public/errors.css?body=1" for 127.0.0.1 at 2014-12-08 14:36:56 -0600
+
+
+Started GET "/assets/public/site.css?body=1" for 127.0.0.1 at 2014-12-08 14:36:56 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-08 14:36:56 -0600
+
+
+Started GET "/assets/admin/portal.css?body=1" for 127.0.0.1 at 2014-12-08 14:36:56 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-08 14:36:56 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-08 14:36:56 -0600
+
+
+Started GET "/assets/admin/errors.js?body=1" for 127.0.0.1 at 2014-12-08 14:36:56 -0600
+
+
+Started GET "/assets/admin/portal.js?body=1" for 127.0.0.1 at 2014-12-08 14:36:56 -0600
+
+
+Started GET "/assets/public/errors.js?body=1" for 127.0.0.1 at 2014-12-08 14:36:56 -0600
+
+
+Started GET "/assets/public/site.js?body=1" for 127.0.0.1 at 2014-12-08 14:36:56 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-08 14:36:56 -0600
+
+
+Started GET "/sdf" for 127.0.0.1 at 2014-12-08 14:37:02 -0600
+
+ActionController::RoutingError (No route matches [GET] "/sdf"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+Processing by Public::ErrorsController#file_not_found as HTML
+  Rendered public/errors/file_not_found.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 76ms (Views: 74.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/admin/errors.css?body=1" for 127.0.0.1 at 2014-12-08 14:37:02 -0600
+
+
+Started GET "/assets/public/site.css?body=1" for 127.0.0.1 at 2014-12-08 14:37:02 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-08 14:37:02 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-08 14:37:02 -0600
+
+
+Started GET "/assets/admin/portal.css?body=1" for 127.0.0.1 at 2014-12-08 14:37:02 -0600
+
+
+Started GET "/assets/public/errors.css?body=1" for 127.0.0.1 at 2014-12-08 14:37:02 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-08 14:37:02 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-08 14:37:02 -0600
+
+
+Started GET "/assets/admin/errors.js?body=1" for 127.0.0.1 at 2014-12-08 14:37:02 -0600
+
+
+Started GET "/assets/admin/portal.js?body=1" for 127.0.0.1 at 2014-12-08 14:37:02 -0600
+
+
+Started GET "/assets/public/errors.js?body=1" for 127.0.0.1 at 2014-12-08 14:37:02 -0600
+
+
+Started GET "/assets/public/site.js?body=1" for 127.0.0.1 at 2014-12-08 14:37:02 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-08 14:37:02 -0600
+
+
+Started GET "/admin/portal/index" for 127.0.0.1 at 2014-12-08 14:37:07 -0600
+Processing by Admin::PortalController#index as HTML
+  Rendered admin/portal/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 78ms (Views: 77.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/admin/errors.css?body=1" for 127.0.0.1 at 2014-12-08 14:37:07 -0600
+
+
+Started GET "/assets/public/site.css?body=1" for 127.0.0.1 at 2014-12-08 14:37:07 -0600
+
+
+Started GET "/assets/public/errors.css?body=1" for 127.0.0.1 at 2014-12-08 14:37:07 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-08 14:37:07 -0600
+
+
+Started GET "/assets/admin/portal.css?body=1" for 127.0.0.1 at 2014-12-08 14:37:07 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-08 14:37:07 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-08 14:37:07 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-08 14:37:07 -0600
+
+
+Started GET "/assets/admin/errors.js?body=1" for 127.0.0.1 at 2014-12-08 14:37:07 -0600
+
+
+Started GET "/assets/admin/portal.js?body=1" for 127.0.0.1 at 2014-12-08 14:37:07 -0600
+
+
+Started GET "/assets/public/errors.js?body=1" for 127.0.0.1 at 2014-12-08 14:37:07 -0600
+
+
+Started GET "/assets/public/site.js?body=1" for 127.0.0.1 at 2014-12-08 14:37:07 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-08 14:37:07 -0600
+
+
+Started GET "/admin/we" for 127.0.0.1 at 2014-12-08 14:37:09 -0600
+
+ActionController::RoutingError (No route matches [GET] "/admin/we"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+Processing by Public::ErrorsController#file_not_found as HTML
+  Rendered public/errors/file_not_found.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 66ms (Views: 65.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/admin/errors.css?body=1" for 127.0.0.1 at 2014-12-08 14:37:09 -0600
+
+
+Started GET "/assets/admin/portal.css?body=1" for 127.0.0.1 at 2014-12-08 14:37:09 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-08 14:37:09 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-08 14:37:09 -0600
+
+
+Started GET "/assets/public/errors.css?body=1" for 127.0.0.1 at 2014-12-08 14:37:09 -0600
+
+
+Started GET "/assets/public/site.css?body=1" for 127.0.0.1 at 2014-12-08 14:37:09 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-08 14:37:09 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-08 14:37:10 -0600
+
+
+Started GET "/assets/admin/errors.js?body=1" for 127.0.0.1 at 2014-12-08 14:37:10 -0600
+
+
+Started GET "/assets/admin/portal.js?body=1" for 127.0.0.1 at 2014-12-08 14:37:10 -0600
+
+
+Started GET "/assets/public/errors.js?body=1" for 127.0.0.1 at 2014-12-08 14:37:10 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-08 14:37:10 -0600
+
+
+Started GET "/assets/public/site.js?body=1" for 127.0.0.1 at 2014-12-08 14:37:10 -0600
+
+
+Started GET "/admin/404" for 127.0.0.1 at 2014-12-08 14:45:17 -0600
+Processing by Admin::ErrorsController#file_not_found as HTML
+  Rendered admin/errors/file_not_found.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 347ms (Views: 322.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/admin/errors.css?body=1" for 127.0.0.1 at 2014-12-08 14:45:17 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-08 14:45:17 -0600
+
+
+Started GET "/assets/public/site.css?body=1" for 127.0.0.1 at 2014-12-08 14:45:17 -0600
+
+
+Started GET "/assets/public/errors.css?body=1" for 127.0.0.1 at 2014-12-08 14:45:17 -0600
+
+
+Started GET "/assets/admin/portal.css?body=1" for 127.0.0.1 at 2014-12-08 14:45:17 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-08 14:45:17 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-08 14:45:17 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-08 14:45:17 -0600
+
+
+Started GET "/assets/admin/errors.js?body=1" for 127.0.0.1 at 2014-12-08 14:45:17 -0600
+
+
+Started GET "/assets/admin/portal.js?body=1" for 127.0.0.1 at 2014-12-08 14:45:17 -0600
+
+
+Started GET "/assets/public/errors.js?body=1" for 127.0.0.1 at 2014-12-08 14:45:17 -0600
+
+
+Started GET "/assets/public/site.js?body=1" for 127.0.0.1 at 2014-12-08 14:45:17 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-08 14:45:17 -0600
+
+
+Started GET "/admin/404df" for 127.0.0.1 at 2014-12-08 14:45:22 -0600
+
+ActionController::RoutingError (No route matches [GET] "/admin/404df"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+Processing by Public::ErrorsController#file_not_found as HTML
+  Rendered public/errors/file_not_found.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 68ms (Views: 66.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/admin/errors.css?body=1" for 127.0.0.1 at 2014-12-08 14:45:23 -0600
+
+
+Started GET "/assets/admin/portal.css?body=1" for 127.0.0.1 at 2014-12-08 14:45:23 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-08 14:45:23 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-08 14:45:23 -0600
+
+
+Started GET "/assets/public/errors.css?body=1" for 127.0.0.1 at 2014-12-08 14:45:23 -0600
+
+
+Started GET "/assets/public/site.css?body=1" for 127.0.0.1 at 2014-12-08 14:45:23 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-08 14:45:23 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-08 14:45:23 -0600
+
+
+Started GET "/assets/admin/errors.js?body=1" for 127.0.0.1 at 2014-12-08 14:45:23 -0600
+
+
+Started GET "/assets/admin/portal.js?body=1" for 127.0.0.1 at 2014-12-08 14:45:23 -0600
+
+
+Started GET "/assets/public/errors.js?body=1" for 127.0.0.1 at 2014-12-08 14:45:23 -0600
+
+
+Started GET "/assets/public/site.js?body=1" for 127.0.0.1 at 2014-12-08 14:45:23 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-08 14:45:23 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-08 17:05:40 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/Rodolfo/.rvm/gems/ruby-2.1.2/gems/railties-4.1.8/lib/rails/templates/rails/welcome/index.html.erb (2.8ms)
+Completed 200 OK in 69ms (Views: 48.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sdfsdf" for 127.0.0.1 at 2014-12-08 17:05:43 -0600
+
+ActionController::RoutingError (No route matches [GET] "/sdfsdf"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+Processing by Public::ErrorsController#file_not_found as HTML
+  Rendered public/errors/file_not_found.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 318ms (Views: 317.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/public/errors.css?body=1" for 127.0.0.1 at 2014-12-08 17:05:44 -0600
+
+
+Started GET "/assets/admin/errors.css?body=1" for 127.0.0.1 at 2014-12-08 17:05:44 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-08 17:05:44 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-08 17:05:44 -0600
+
+
+Started GET "/assets/public/site.css?body=1" for 127.0.0.1 at 2014-12-08 17:05:44 -0600
+
+
+Started GET "/assets/admin/errors.js?body=1" for 127.0.0.1 at 2014-12-08 17:05:44 -0600
+
+
+Started GET "/assets/admin/portal.css?body=1" for 127.0.0.1 at 2014-12-08 17:05:44 -0600
+
+
+Started GET "/assets/admin/portal.js?body=1" for 127.0.0.1 at 2014-12-08 17:05:44 -0600
+
+
+Started GET "/assets/public/site.js?body=1" for 127.0.0.1 at 2014-12-08 17:05:44 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-08 17:05:44 -0600
+
+
+Started GET "/assets/public/errors.js?body=1" for 127.0.0.1 at 2014-12-08 17:05:44 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-08 17:05:44 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-08 17:05:44 -0600
+
+
+Started GET "/admin/wwe" for 127.0.0.1 at 2014-12-08 17:05:55 -0600
+
+ActionController::RoutingError (No route matches [GET] "/admin/wwe"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+Processing by Public::ErrorsController#file_not_found as HTML
+  Rendered public/errors/file_not_found.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 73ms (Views: 71.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/admin/errors.css?body=1" for 127.0.0.1 at 2014-12-08 17:05:55 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-08 17:05:55 -0600
+
+
+Started GET "/assets/public/site.css?body=1" for 127.0.0.1 at 2014-12-08 17:05:55 -0600
+
+
+Started GET "/assets/public/errors.css?body=1" for 127.0.0.1 at 2014-12-08 17:05:55 -0600
+
+
+Started GET "/assets/admin/portal.css?body=1" for 127.0.0.1 at 2014-12-08 17:05:55 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-08 17:05:55 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-08 17:05:55 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-08 17:05:55 -0600
+
+
+Started GET "/assets/admin/errors.js?body=1" for 127.0.0.1 at 2014-12-08 17:05:55 -0600
+
+
+Started GET "/assets/admin/portal.js?body=1" for 127.0.0.1 at 2014-12-08 17:05:55 -0600
+
+
+Started GET "/assets/public/errors.js?body=1" for 127.0.0.1 at 2014-12-08 17:05:55 -0600
+
+
+Started GET "/assets/public/site.js?body=1" for 127.0.0.1 at 2014-12-08 17:05:55 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-08 17:05:55 -0600
+
+
+Started GET "/admin/wwe" for 127.0.0.1 at 2014-12-08 17:06:32 -0600
+
+ActionController::RoutingError (No route matches [GET] "/admin/wwe"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+Processing by Public::ErrorsController#file_not_found as HTML
+  Rendered public/errors/file_not_found.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 63ms (Views: 62.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/admin/errors.css?body=1" for 127.0.0.1 at 2014-12-08 17:06:32 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-08 17:06:32 -0600
+
+
+Started GET "/assets/public/errors.css?body=1" for 127.0.0.1 at 2014-12-08 17:06:32 -0600
+
+
+Started GET "/assets/admin/portal.css?body=1" for 127.0.0.1 at 2014-12-08 17:06:32 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-08 17:06:32 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-08 17:06:32 -0600
+
+
+Started GET "/assets/public/site.css?body=1" for 127.0.0.1 at 2014-12-08 17:06:32 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-08 17:06:32 -0600
+
+
+Started GET "/assets/admin/portal.js?body=1" for 127.0.0.1 at 2014-12-08 17:06:32 -0600
+
+
+Started GET "/assets/admin/errors.js?body=1" for 127.0.0.1 at 2014-12-08 17:06:32 -0600
+
+
+Started GET "/assets/public/errors.js?body=1" for 127.0.0.1 at 2014-12-08 17:06:32 -0600
+
+
+Started GET "/assets/public/site.js?body=1" for 127.0.0.1 at 2014-12-08 17:06:32 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-08 17:06:32 -0600
+
+
+Started GET "/admin/wwe" for 127.0.0.1 at 2014-12-08 17:07:10 -0600
+
+ActionController::RoutingError (No route matches [GET] "/admin/wwe"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+Processing by Public::ErrorsController#file_not_found as HTML
+Completed 500 Internal Server Error in 1ms
+
+
+Started GET "/admin/wwe" for 127.0.0.1 at 2014-12-08 17:07:41 -0600
+
+ActionController::RoutingError (No route matches [GET] "/admin/wwe"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+Processing by Public::ErrorsController#file_not_found as HTML
+  Rendered public/errors/file_not_found.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 67ms (Views: 66.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/admin/errors.css?body=1" for 127.0.0.1 at 2014-12-08 17:07:41 -0600
+
+
+Started GET "/assets/admin/portal.css?body=1" for 127.0.0.1 at 2014-12-08 17:07:41 -0600
+
+
+Started GET "/assets/public/site.css?body=1" for 127.0.0.1 at 2014-12-08 17:07:41 -0600
+
+
+Started GET "/assets/public/errors.css?body=1" for 127.0.0.1 at 2014-12-08 17:07:41 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-08 17:07:41 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-08 17:07:41 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-08 17:07:41 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-08 17:07:41 -0600
+
+
+Started GET "/assets/admin/errors.js?body=1" for 127.0.0.1 at 2014-12-08 17:07:41 -0600
+
+
+Started GET "/assets/admin/portal.js?body=1" for 127.0.0.1 at 2014-12-08 17:07:41 -0600
+
+
+Started GET "/assets/public/errors.js?body=1" for 127.0.0.1 at 2014-12-08 17:07:41 -0600
+
+
+Started GET "/assets/public/site.js?body=1" for 127.0.0.1 at 2014-12-08 17:07:41 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-08 17:07:41 -0600
+
+
+Started GET "/sdf" for 127.0.0.1 at 2014-12-08 17:07:49 -0600
+
+ActionController::RoutingError (No route matches [GET] "/sdf"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+Processing by Public::ErrorsController#file_not_found as HTML
+  Rendered public/errors/file_not_found.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 69ms (Views: 68.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/public/site.css?body=1" for 127.0.0.1 at 2014-12-08 17:07:49 -0600
+
+
+Started GET "/assets/admin/portal.css?body=1" for 127.0.0.1 at 2014-12-08 17:07:49 -0600
+
+
+Started GET "/assets/admin/errors.css?body=1" for 127.0.0.1 at 2014-12-08 17:07:49 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-08 17:07:49 -0600
+
+
+Started GET "/assets/public/errors.css?body=1" for 127.0.0.1 at 2014-12-08 17:07:49 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-08 17:07:49 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-08 17:07:50 -0600
+
+
+Started GET "/assets/admin/errors.js?body=1" for 127.0.0.1 at 2014-12-08 17:07:50 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-08 17:07:50 -0600
+
+
+Started GET "/assets/admin/portal.js?body=1" for 127.0.0.1 at 2014-12-08 17:07:50 -0600
+
+
+Started GET "/assets/public/errors.js?body=1" for 127.0.0.1 at 2014-12-08 17:07:50 -0600
+
+
+Started GET "/assets/public/site.js?body=1" for 127.0.0.1 at 2014-12-08 17:07:50 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-08 17:07:50 -0600
+
+
+Started GET "/admin/wwe" for 127.0.0.1 at 2014-12-08 17:08:12 -0600
+
+ActionController::RoutingError (No route matches [GET] "/admin/wwe"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+Processing by Public::ErrorsController#file_not_found as HTML
+Completed 500 Internal Server Error in 5ms
+
+
+Started GET "/admin/wwe" for 127.0.0.1 at 2014-12-08 17:08:32 -0600
+
+ActionController::RoutingError (No route matches [GET] "/admin/wwe"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+Processing by Public::ErrorsController#file_not_found as HTML
+Redirected to http://localhost:3000/admin/404
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/404" for 127.0.0.1 at 2014-12-08 17:08:32 -0600
+Processing by Admin::ErrorsController#file_not_found as HTML
+  Rendered admin/errors/file_not_found.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 91ms (Views: 90.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/admin/errors.css?body=1" for 127.0.0.1 at 2014-12-08 17:08:32 -0600
+
+
+Started GET "/assets/admin/portal.css?body=1" for 127.0.0.1 at 2014-12-08 17:08:32 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-08 17:08:32 -0600
+
+
+Started GET "/assets/public/errors.css?body=1" for 127.0.0.1 at 2014-12-08 17:08:32 -0600
+
+
+Started GET "/assets/public/site.css?body=1" for 127.0.0.1 at 2014-12-08 17:08:32 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-08 17:08:32 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-08 17:08:32 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-08 17:08:32 -0600
+
+
+Started GET "/assets/admin/errors.js?body=1" for 127.0.0.1 at 2014-12-08 17:08:32 -0600
+
+
+Started GET "/assets/admin/portal.js?body=1" for 127.0.0.1 at 2014-12-08 17:08:32 -0600
+
+
+Started GET "/assets/public/errors.js?body=1" for 127.0.0.1 at 2014-12-08 17:08:32 -0600
+
+
+Started GET "/assets/public/site.js?body=1" for 127.0.0.1 at 2014-12-08 17:08:32 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-08 17:08:32 -0600
+
+
+Started GET "/admin/404" for 127.0.0.1 at 2014-12-08 17:09:32 -0600
+Processing by Admin::ErrorsController#file_not_found as HTML
+  Rendered admin/errors/file_not_found.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 68ms (Views: 67.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/admin/errors.css?body=1" for 127.0.0.1 at 2014-12-08 17:09:32 -0600
+
+
+Started GET "/assets/admin/portal.css?body=1" for 127.0.0.1 at 2014-12-08 17:09:32 -0600
+
+
+Started GET "/assets/public/errors.css?body=1" for 127.0.0.1 at 2014-12-08 17:09:32 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-08 17:09:32 -0600
+
+
+Started GET "/assets/public/site.css?body=1" for 127.0.0.1 at 2014-12-08 17:09:32 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-08 17:09:32 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-08 17:09:32 -0600
+
+
+Started GET "/assets/admin/errors.js?body=1" for 127.0.0.1 at 2014-12-08 17:09:32 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-08 17:09:32 -0600
+
+
+Started GET "/assets/admin/portal.js?body=1" for 127.0.0.1 at 2014-12-08 17:09:32 -0600
+
+
+Started GET "/assets/public/errors.js?body=1" for 127.0.0.1 at 2014-12-08 17:09:32 -0600
+
+
+Started GET "/assets/public/site.js?body=1" for 127.0.0.1 at 2014-12-08 17:09:32 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-08 17:09:32 -0600
+
+
+Started GET "/sfwe" for 127.0.0.1 at 2014-12-08 17:09:36 -0600
+
+ActionController::RoutingError (No route matches [GET] "/sfwe"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+Processing by Public::ErrorsController#file_not_found as HTML
+  Rendered public/errors/file_not_found.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 74ms (Views: 72.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/admin/portal.css?body=1" for 127.0.0.1 at 2014-12-08 17:09:36 -0600
+
+
+Started GET "/assets/admin/errors.css?body=1" for 127.0.0.1 at 2014-12-08 17:09:36 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-08 17:09:36 -0600
+
+
+Started GET "/assets/public/errors.css?body=1" for 127.0.0.1 at 2014-12-08 17:09:36 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-08 17:09:36 -0600
+
+
+Started GET "/assets/public/site.css?body=1" for 127.0.0.1 at 2014-12-08 17:09:36 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-08 17:09:36 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-08 17:09:36 -0600
+
+
+Started GET "/assets/admin/errors.js?body=1" for 127.0.0.1 at 2014-12-08 17:09:36 -0600
+
+
+Started GET "/assets/admin/portal.js?body=1" for 127.0.0.1 at 2014-12-08 17:09:36 -0600
+
+
+Started GET "/assets/public/site.js?body=1" for 127.0.0.1 at 2014-12-08 17:09:36 -0600
+
+
+Started GET "/assets/public/errors.js?body=1" for 127.0.0.1 at 2014-12-08 17:09:36 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-08 17:09:36 -0600
+
+
+Started GET "/admin/wwe" for 127.0.0.1 at 2014-12-08 17:09:41 -0600
+
+ActionController::RoutingError (No route matches [GET] "/admin/wwe"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/Rodolfo/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+Processing by Public::ErrorsController#file_not_found as HTML
+Redirected to http://localhost:3000/admin/404
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/404" for 127.0.0.1 at 2014-12-08 17:09:41 -0600
+Processing by Admin::ErrorsController#file_not_found as HTML
+  Rendered admin/errors/file_not_found.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 65ms (Views: 64.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/admin/portal.css?body=1" for 127.0.0.1 at 2014-12-08 17:09:41 -0600
+
+
+Started GET "/assets/admin/errors.css?body=1" for 127.0.0.1 at 2014-12-08 17:09:41 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-08 17:09:41 -0600
+
+
+Started GET "/assets/public/site.css?body=1" for 127.0.0.1 at 2014-12-08 17:09:41 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-08 17:09:41 -0600
+
+
+Started GET "/assets/public/errors.css?body=1" for 127.0.0.1 at 2014-12-08 17:09:41 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-08 17:09:41 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-08 17:09:41 -0600
+
+
+Started GET "/assets/admin/errors.js?body=1" for 127.0.0.1 at 2014-12-08 17:09:41 -0600
+
+
+Started GET "/assets/admin/portal.js?body=1" for 127.0.0.1 at 2014-12-08 17:09:41 -0600
+
+
+Started GET "/assets/public/errors.js?body=1" for 127.0.0.1 at 2014-12-08 17:09:41 -0600
+
+
+Started GET "/assets/public/site.js?body=1" for 127.0.0.1 at 2014-12-08 17:09:41 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-08 17:09:41 -0600
+
+
+Started GET "/admin/404" for 127.0.0.1 at 2014-12-08 17:10:32 -0600
+Processing by Admin::ErrorsController#file_not_found as HTML
+  Rendered admin/errors/file_not_found.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 70ms (Views: 69.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/admin/errors.css?body=1" for 127.0.0.1 at 2014-12-08 17:10:33 -0600
+
+
+Started GET "/assets/public/site.css?body=1" for 127.0.0.1 at 2014-12-08 17:10:33 -0600
+
+
+Started GET "/assets/public/errors.css?body=1" for 127.0.0.1 at 2014-12-08 17:10:33 -0600
+
+
+Started GET "/assets/admin/portal.css?body=1" for 127.0.0.1 at 2014-12-08 17:10:33 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-08 17:10:33 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-08 17:10:33 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-08 17:10:33 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-08 17:10:33 -0600
+
+
+Started GET "/assets/admin/errors.js?body=1" for 127.0.0.1 at 2014-12-08 17:10:33 -0600
+
+
+Started GET "/assets/admin/portal.js?body=1" for 127.0.0.1 at 2014-12-08 17:10:33 -0600
+
+
+Started GET "/assets/public/site.js?body=1" for 127.0.0.1 at 2014-12-08 17:10:33 -0600
+
+
+Started GET "/assets/public/errors.js?body=1" for 127.0.0.1 at 2014-12-08 17:10:33 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-08 17:10:33 -0600
+
+
+Started GET "/admin/404" for 127.0.0.1 at 2014-12-08 17:11:32 -0600
+Processing by Admin::ErrorsController#file_not_found as HTML
+  Rendered admin/errors/file_not_found.html.erb within admin/layouts/application.html.erb (0.1ms)
+Completed 200 OK in 61ms (Views: 60.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/admin/errors.css?body=1" for 127.0.0.1 at 2014-12-08 17:11:32 -0600
+
+
+Started GET "/assets/public/errors.css?body=1" for 127.0.0.1 at 2014-12-08 17:11:32 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-08 17:11:32 -0600
+
+
+Started GET "/assets/admin/portal.css?body=1" for 127.0.0.1 at 2014-12-08 17:11:32 -0600
+
+
+Started GET "/assets/public/site.css?body=1" for 127.0.0.1 at 2014-12-08 17:11:32 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-08 17:11:32 -0600
+
+
+Started GET "/assets/admin/errors.js?body=1" for 127.0.0.1 at 2014-12-08 17:11:32 -0600
+
+
+Started GET "/assets/public/errors.js?body=1" for 127.0.0.1 at 2014-12-08 17:11:32 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-08 17:11:32 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-08 17:11:32 -0600
+
+
+Started GET "/assets/admin/portal.js?body=1" for 127.0.0.1 at 2014-12-08 17:11:32 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-08 17:11:32 -0600
+
+
+Started GET "/assets/public/site.js?body=1" for 127.0.0.1 at 2014-12-08 17:11:32 -0600
